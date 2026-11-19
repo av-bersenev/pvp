@@ -1,0 +1,431 @@
+[gd_scene format=3 uid="uid://bw1odeiy34j77"]
+
+[ext_resource type="Script" uid="uid://ddyxk88ghfra5" path="res://game_board.gd" id="1_17g6i"]
+[ext_resource type="Texture2D" uid="uid://dsr3yl3gpw4w2" path="res://assets/board.png" id="1_xrvgy"]
+[ext_resource type="Texture2D" uid="uid://cxemxcxdlp63j" path="res://icon.svg" id="2_i37i2"]
+
+[node name="Node2D" type="Node2D" unique_id=754439379]
+script = ExtResource("1_17g6i")
+
+[node name="Board" type="Sprite2D" parent="." unique_id=2092805492]
+position = Vector2(540, 780)
+scale = Vector2(0.62, 0.62)
+texture = ExtResource("1_xrvgy")
+metadata/_edit_lock_ = true
+
+[node name="Cells" type="Node2D" parent="." unique_id=140116605]
+
+[node name="Patch_P1" type="Node2D" parent="Cells" unique_id=2145577166]
+position = Vector2(121, 29)
+
+[node name="Cell_0" type="Marker2D" parent="Cells/Patch_P1" unique_id=501815045]
+position = Vector2(380, 818)
+
+[node name="Cell_1" type="Marker2D" parent="Cells/Patch_P1" unique_id=1647043082]
+position = Vector2(337, 756)
+
+[node name="Cell_2" type="Marker2D" parent="Cells/Patch_P1" unique_id=2093956687]
+position = Vector2(274, 758)
+
+[node name="Cell_3" type="Marker2D" parent="Cells/Patch_P1" unique_id=1569150614]
+position = Vector2(211, 760)
+
+[node name="Cell_4" type="Marker2D" parent="Cells/Patch_P1" unique_id=1107917358]
+position = Vector2(141, 758)
+
+[node name="Cell_5" type="Marker2D" parent="Cells/Patch_P1" unique_id=1616077064]
+position = Vector2(57, 760)
+
+[node name="Cell_6" type="Marker2D" parent="Cells/Patch_P1" unique_id=1855513446]
+position = Vector2(-3, 760)
+
+[node name="Cell_7" type="Marker2D" parent="Cells/Patch_P1" unique_id=655083014]
+position = Vector2(-6, 708)
+
+[node name="Cell_8" type="Marker2D" parent="Cells/Patch_P1" unique_id=1048244063]
+position = Vector2(15, 658)
+
+[node name="Cell_9" type="Marker2D" parent="Cells/Patch_P1" unique_id=2113556938]
+position = Vector2(78, 654)
+
+[node name="Cell_10" type="Marker2D" parent="Cells/Patch_P1" unique_id=1754502233]
+position = Vector2(135, 654)
+
+[node name="Cell_11" type="Marker2D" parent="Cells/Patch_P1" unique_id=2078517403]
+position = Vector2(191, 652)
+
+[node name="Cell_12" type="Marker2D" parent="Cells/Patch_P1" unique_id=1940218445]
+position = Vector2(252, 654)
+
+[node name="Cell_13" type="Marker2D" parent="Cells/Patch_P1" unique_id=1027124845]
+position = Vector2(324, 653)
+
+[node name="Cell_14" type="Marker2D" parent="Cells/Patch_P1" unique_id=824185402]
+position = Vector2(394, 597)
+
+[node name="Cell_15" type="Marker2D" parent="Cells/Patch_P1" unique_id=721357662]
+position = Vector2(343, 554)
+
+[node name="Cell_16" type="Marker2D" parent="Cells/Patch_P1" unique_id=829834885]
+position = Vector2(297, 553)
+
+[node name="Cell_17" type="Marker2D" parent="Cells/Patch_P1" unique_id=580131982]
+position = Vector2(216, 554)
+
+[node name="Cell_18" type="Marker2D" parent="Cells/Patch_P1" unique_id=153596570]
+position = Vector2(155, 555)
+
+[node name="Cell_19" type="Marker2D" parent="Cells/Patch_P1" unique_id=397215229]
+position = Vector2(102, 509)
+
+[node name="Cell_20" type="Marker2D" parent="Cells/Patch_P1" unique_id=2068782749]
+position = Vector2(70, 449)
+
+[node name="Cell_21" type="Marker2D" parent="Cells/Patch_P1" unique_id=1896896360]
+position = Vector2(20, 398)
+
+[node name="Cell_22" type="Marker2D" parent="Cells/Patch_P1" unique_id=597244870]
+position = Vector2(4, 334)
+
+[node name="Cell_23" type="Marker2D" parent="Cells/Patch_P1" unique_id=1323039803]
+position = Vector2(39, 267)
+
+[node name="Cell_24" type="Marker2D" parent="Cells/Patch_P1" unique_id=1435250818]
+position = Vector2(93, 267)
+
+[node name="Cell_25" type="Marker2D" parent="Cells/Patch_P1" unique_id=170884645]
+position = Vector2(146, 272)
+
+[node name="Cell_26" type="Marker2D" parent="Cells/Patch_P1" unique_id=2040621181]
+position = Vector2(187, 331)
+
+[node name="Cell_27" type="Marker2D" parent="Cells/Patch_P1" unique_id=1422574315]
+position = Vector2(174, 380)
+
+[node name="Cell_28" type="Marker2D" parent="Cells/Patch_P1" unique_id=386646981]
+position = Vector2(182, 449)
+
+[node name="Cell_29" type="Marker2D" parent="Cells/Patch_P1" unique_id=2091413187]
+position = Vector2(239, 449)
+
+[node name="Cell_30" type="Marker2D" parent="Cells/Patch_P1" unique_id=1416454592]
+position = Vector2(292, 457)
+
+[node name="Cell_31" type="Marker2D" parent="Cells/Patch_P1" unique_id=1653733846]
+position = Vector2(350, 469)
+
+[node name="Cell_32" type="Marker2D" parent="Cells/Patch_P1" unique_id=238559896]
+position = Vector2(421, 518)
+
+[node name="Patch_P2" type="Node2D" parent="Cells" unique_id=1170459909]
+position = Vector2(223, 37)
+
+[node name="Cell_0" type="Marker2D" parent="Cells/Patch_P2" unique_id=1788983955]
+position = Vector2(353, 811)
+
+[node name="Cell_1" type="Marker2D" parent="Cells/Patch_P2" unique_id=388353502]
+position = Vector2(383, 756)
+
+[node name="Cell_2" type="Marker2D" parent="Cells/Patch_P2" unique_id=473164040]
+position = Vector2(453, 735)
+
+[node name="Cell_3" type="Marker2D" parent="Cells/Patch_P2" unique_id=2006371053]
+position = Vector2(520, 749)
+
+[node name="Cell_4" type="Marker2D" parent="Cells/Patch_P2" unique_id=995808331]
+position = Vector2(565, 751)
+
+[node name="Cell_5" type="Marker2D" parent="Cells/Patch_P2" unique_id=1439285356]
+position = Vector2(686, 750)
+
+[node name="Cell_6" type="Marker2D" parent="Cells/Patch_P2" unique_id=2128140089]
+position = Vector2(733, 737)
+
+[node name="Cell_7" type="Marker2D" parent="Cells/Patch_P2" unique_id=1297387920]
+position = Vector2(767, 710)
+
+[node name="Cell_8" type="Marker2D" parent="Cells/Patch_P2" unique_id=1091505923]
+position = Vector2(721, 649)
+
+[node name="Cell_9" type="Marker2D" parent="Cells/Patch_P2" unique_id=900664200]
+position = Vector2(646, 646)
+
+[node name="Cell_10" type="Marker2D" parent="Cells/Patch_P2" unique_id=1089791898]
+position = Vector2(583, 645)
+
+[node name="Cell_11" type="Marker2D" parent="Cells/Patch_P2" unique_id=503959828]
+position = Vector2(516, 646)
+
+[node name="Cell_12" type="Marker2D" parent="Cells/Patch_P2" unique_id=79721497]
+position = Vector2(445, 647)
+
+[node name="Cell_13" type="Marker2D" parent="Cells/Patch_P2" unique_id=514095841]
+position = Vector2(383, 644)
+
+[node name="Cell_14" type="Marker2D" parent="Cells/Patch_P2" unique_id=42374961]
+position = Vector2(346, 590)
+
+[node name="Cell_15" type="Marker2D" parent="Cells/Patch_P2" unique_id=1899111942]
+position = Vector2(383, 545)
+
+[node name="Cell_16" type="Marker2D" parent="Cells/Patch_P2" unique_id=576981388]
+position = Vector2(469, 541)
+
+[node name="Cell_17" type="Marker2D" parent="Cells/Patch_P2" unique_id=1867891305]
+position = Vector2(529, 542)
+
+[node name="Cell_18" type="Marker2D" parent="Cells/Patch_P2" unique_id=1214053547]
+position = Vector2(597, 542)
+
+[node name="Cell_19" type="Marker2D" parent="Cells/Patch_P2" unique_id=1146619484]
+position = Vector2(712, 60)
+
+[node name="Cell_20" type="Marker2D" parent="Cells/Patch_P2" unique_id=1594964087]
+position = Vector2(713, 103)
+
+[node name="Cell_21" type="Marker2D" parent="Cells/Patch_P2" unique_id=1042929526]
+position = Vector2(713, 151)
+
+[node name="Cell_22" type="Marker2D" parent="Cells/Patch_P2" unique_id=1218692633]
+position = Vector2(712, 211)
+
+[node name="Cell_23" type="Marker2D" parent="Cells/Patch_P2" unique_id=1767717564]
+position = Vector2(761, 293)
+
+[node name="Cell_24" type="Marker2D" parent="Cells/Patch_P2" unique_id=720902188]
+position = Vector2(713, 289)
+
+[node name="Cell_25" type="Marker2D" parent="Cells/Patch_P2" unique_id=450512577]
+position = Vector2(664, 289)
+
+[node name="Cell_26" type="Marker2D" parent="Cells/Patch_P2" unique_id=1664865481]
+position = Vector2(629, 371)
+
+[node name="Cell_27" type="Marker2D" parent="Cells/Patch_P2" unique_id=1312153740]
+position = Vector2(598, 419)
+
+[node name="Cell_28" type="Marker2D" parent="Cells/Patch_P2" unique_id=1994322344]
+position = Vector2(533, 444)
+
+[node name="Cell_29" type="Marker2D" parent="Cells/Patch_P2" unique_id=590833402]
+position = Vector2(490, 443)
+
+[node name="Cell_30" type="Marker2D" parent="Cells/Patch_P2" unique_id=862774922]
+position = Vector2(444, 447)
+
+[node name="Cell_31" type="Marker2D" parent="Cells/Patch_P2" unique_id=1820420897]
+position = Vector2(403, 460)
+
+[node name="Cell_32" type="Marker2D" parent="Cells/Patch_P2" unique_id=126858229]
+position = Vector2(320, 509)
+
+[node name="Patch_Shared" type="Node2D" parent="Cells" unique_id=417015087]
+position = Vector2(176, 24)
+
+[node name="Cell_33" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1203493416]
+position = Vector2(368, 450)
+
+[node name="Cell_34" type="Marker2D" parent="Cells/Patch_Shared" unique_id=285873020]
+position = Vector2(-71, 936)
+
+[node name="Cell_35" type="Marker2D" parent="Cells/Patch_Shared" unique_id=730364307]
+position = Vector2(-56, 996)
+
+[node name="Cell_36" type="Marker2D" parent="Cells/Patch_Shared" unique_id=496650918]
+position = Vector2(8, 1000)
+
+[node name="Cell_37" type="Marker2D" parent="Cells/Patch_Shared" unique_id=367895434]
+position = Vector2(65, 1000)
+
+[node name="Cell_38" type="Marker2D" parent="Cells/Patch_Shared" unique_id=952054022]
+position = Vector2(125, 1003)
+
+[node name="Cell_39" type="Marker2D" parent="Cells/Patch_Shared" unique_id=238312911]
+position = Vector2(174, 999)
+
+[node name="Cell_40" type="Marker2D" parent="Cells/Patch_Shared" unique_id=442162148]
+position = Vector2(238, 1001)
+
+[node name="Cell_41" type="Marker2D" parent="Cells/Patch_Shared" unique_id=202910461]
+position = Vector2(291, 1000)
+
+[node name="Cell_42" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1321395331]
+position = Vector2(351, 1005)
+
+[node name="Cell_43" type="Marker2D" parent="Cells/Patch_Shared" unique_id=765102302]
+position = Vector2(412, 1002)
+
+[node name="Cell_44" type="Marker2D" parent="Cells/Patch_Shared" unique_id=599820109]
+position = Vector2(514, 1002)
+
+[node name="Cell_45" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1962414000]
+position = Vector2(559, 1001)
+
+[node name="Cell_46" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1111760457]
+position = Vector2(606, 1002)
+
+[node name="Cell_47" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1946400216]
+position = Vector2(651, 1002)
+
+[node name="Cell_48" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1766505936]
+position = Vector2(723, 1001)
+
+[node name="Cell_49" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1087620295]
+position = Vector2(778, 1001)
+
+[node name="Cell_50" type="Marker2D" parent="Cells/Patch_Shared" unique_id=76947726]
+position = Vector2(836, 1052)
+
+[node name="Cell_51" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1072423102]
+position = Vector2(800, 1084)
+
+[node name="Cell_52" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1145182846]
+position = Vector2(758, 1111)
+
+[node name="Cell_53" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1345925093]
+position = Vector2(800, 1132)
+
+[node name="Cell_54" type="Marker2D" parent="Cells/Patch_Shared" unique_id=769339262]
+position = Vector2(838, 1165)
+
+[node name="Cell_55" type="Marker2D" parent="Cells/Patch_Shared" unique_id=2011838142]
+position = Vector2(786, 1178)
+
+[node name="Cell_56" type="Marker2D" parent="Cells/Patch_Shared" unique_id=156207173]
+position = Vector2(735, 1176)
+
+[node name="Cell_57" type="Marker2D" parent="Cells/Patch_Shared" unique_id=552825901]
+position = Vector2(687, 1180)
+
+[node name="Cell_58" type="Marker2D" parent="Cells/Patch_Shared" unique_id=529906067]
+position = Vector2(640, 1179)
+
+[node name="Cell_59" type="Marker2D" parent="Cells/Patch_Shared" unique_id=409870241]
+position = Vector2(591, 1179)
+
+[node name="Cell_60" type="Marker2D" parent="Cells/Patch_Shared" unique_id=174504684]
+position = Vector2(534, 1180)
+
+[node name="Cell_61" type="Marker2D" parent="Cells/Patch_Shared" unique_id=167504232]
+position = Vector2(486, 1179)
+
+[node name="Cell_62" type="Marker2D" parent="Cells/Patch_Shared" unique_id=288864756]
+position = Vector2(440, 1181)
+
+[node name="Cell_63" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1551613014]
+position = Vector2(397, 1182)
+
+[node name="Cell_64" type="Marker2D" parent="Cells/Patch_Shared" unique_id=997372025]
+position = Vector2(349, 1182)
+
+[node name="Cell_65" type="Marker2D" parent="Cells/Patch_Shared" unique_id=654778927]
+position = Vector2(296, 1179)
+
+[node name="Cell_66" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1118139343]
+position = Vector2(237, 1179)
+
+[node name="Cell_67" type="Marker2D" parent="Cells/Patch_Shared" unique_id=8566673]
+position = Vector2(195, 1179)
+
+[node name="Cell_68" type="Marker2D" parent="Cells/Patch_Shared" unique_id=2112828178]
+position = Vector2(149, 1179)
+
+[node name="Cell_69" type="Marker2D" parent="Cells/Patch_Shared" unique_id=614964683]
+position = Vector2(96, 1179)
+
+[node name="Cell_70" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1710291648]
+position = Vector2(42, 1178)
+
+[node name="Cell_71" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1832221462]
+position = Vector2(-1, 1179)
+
+[node name="Cell_72" type="Marker2D" parent="Cells/Patch_Shared" unique_id=2044775770]
+position = Vector2(-56, 1179)
+
+[node name="Cell_73" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1238597130]
+position = Vector2(-72, 1219)
+
+[node name="Cell_74" type="Marker2D" parent="Cells/Patch_Shared" unique_id=12379885]
+position = Vector2(-106, 1257)
+
+[node name="Cell_75" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1421996727]
+position = Vector2(-55, 1274)
+
+[node name="Cell_76" type="Marker2D" parent="Cells/Patch_Shared" unique_id=939397655]
+position = Vector2(-81, 1310)
+
+[node name="Cell_77" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1572414768]
+position = Vector2(-63, 1346)
+
+[node name="Cell_78" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1480735199]
+position = Vector2(1, 1349)
+
+[node name="Cell_79" type="Marker2D" parent="Cells/Patch_Shared" unique_id=135520399]
+position = Vector2(52, 1349)
+
+[node name="Cell_80" type="Marker2D" parent="Cells/Patch_Shared" unique_id=770356937]
+position = Vector2(115, 1353)
+
+[node name="Cell_81" type="Marker2D" parent="Cells/Patch_Shared" unique_id=543798763]
+position = Vector2(199, 1356)
+
+[node name="Cell_82" type="Marker2D" parent="Cells/Patch_Shared" unique_id=738884290]
+position = Vector2(241, 1357)
+
+[node name="Cell_83" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1358774944]
+position = Vector2(288, 1356)
+
+[node name="Cell_84" type="Marker2D" parent="Cells/Patch_Shared" unique_id=978377478]
+position = Vector2(434, 1358)
+
+[node name="Cell_85" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1034575827]
+position = Vector2(475, 1357)
+
+[node name="Cell_86" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1328551164]
+position = Vector2(516, 1356)
+
+[node name="Cell_87" type="Marker2D" parent="Cells/Patch_Shared" unique_id=189497238]
+position = Vector2(583, 1354)
+
+[node name="Cell_88" type="Marker2D" parent="Cells/Patch_Shared" unique_id=542870375]
+position = Vector2(635, 1353)
+
+[node name="Cell_89" type="Marker2D" parent="Cells/Patch_Shared" unique_id=2021480090]
+position = Vector2(683, 1353)
+
+[node name="Cell_90" type="Marker2D" parent="Cells/Patch_Shared" unique_id=1272189044]
+position = Vector2(781, 1376)
+
+[node name="Players" type="Node2D" parent="." unique_id=650883025]
+position = Vector2(539, 854)
+
+[node name="Player1" type="Sprite2D" parent="Players" unique_id=341625728]
+self_modulate = Color(1, 0, 0, 1)
+position = Vector2(-36.999996, 21.999998)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_i37i2")
+
+[node name="Player2" type="Sprite2D" parent="Players" unique_id=1891738487]
+modulate = Color(0, 0, 1, 1)
+position = Vector2(39.999996, 23.999998)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_i37i2")
+
+[node name="UI" type="Node2D" parent="." unique_id=945300645]
+
+[node name="StatusLabel" type="Label" parent="UI" unique_id=920255855]
+offset_left = 140.0
+offset_top = 1580.0
+offset_right = 940.0
+offset_bottom = 1660.0
+theme_override_font_sizes/font_size = 42
+text = "Нажмите кнопку для хода"
+horizontal_alignment = 1
+
+[node name="RollButton" type="Button" parent="UI" unique_id=1160386785]
+offset_left = 290.0
+offset_top = 1690.0
+offset_right = 790.0
+offset_bottom = 1810.0
+theme_override_font_sizes/font_size = 42
+text = "Бросить кубик	"
