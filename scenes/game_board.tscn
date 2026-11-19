@@ -1,16 +1,16 @@
 [gd_scene format=3 uid="uid://bw1odeiy34j77"]
 
-[ext_resource type="Script" uid="uid://ddyxk88ghfra5" path="res://game_board.gd" id="1_17g6i"]
-[ext_resource type="Texture2D" uid="uid://dsr3yl3gpw4w2" path="res://assets/board.png" id="1_xrvgy"]
-[ext_resource type="Texture2D" uid="uid://cxemxcxdlp63j" path="res://icon.svg" id="2_i37i2"]
+[ext_resource type="Script" uid="uid://ddyxk88ghfra5" path="res://scripts/game_board.gd" id="1_0jtfi"]
+[ext_resource type="Texture2D" uid="uid://dsr3yl3gpw4w2" path="res://assets/board.png" id="2_mq2xb"]
+[ext_resource type="Texture2D" uid="uid://cxemxcxdlp63j" path="res://icon.svg" id="3_cmh4g"]
 
 [node name="Node2D" type="Node2D" unique_id=754439379]
-script = ExtResource("1_17g6i")
+script = ExtResource("1_0jtfi")
 
 [node name="Board" type="Sprite2D" parent="." unique_id=2092805492]
 position = Vector2(540, 780)
 scale = Vector2(0.62, 0.62)
-texture = ExtResource("1_xrvgy")
+texture = ExtResource("2_mq2xb")
 metadata/_edit_lock_ = true
 
 [node name="Cells" type="Node2D" parent="." unique_id=140116605]
@@ -403,13 +403,13 @@ position = Vector2(539, 854)
 self_modulate = Color(1, 0, 0, 1)
 position = Vector2(-36.999996, 21.999998)
 scale = Vector2(0.25, 0.25)
-texture = ExtResource("2_i37i2")
+texture = ExtResource("3_cmh4g")
 
 [node name="Player2" type="Sprite2D" parent="Players" unique_id=1891738487]
 modulate = Color(0, 0, 1, 1)
 position = Vector2(39.999996, 23.999998)
 scale = Vector2(0.25, 0.25)
-texture = ExtResource("2_i37i2")
+texture = ExtResource("3_cmh4g")
 
 [node name="UI" type="Node2D" parent="." unique_id=945300645]
 
